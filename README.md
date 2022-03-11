@@ -9,7 +9,7 @@ Documentation: https://docs.waves.tech/en/building-apps/waves-api-and-sdk/client
 
 *At the moment, it is only possible to test the connection with Waves in my example in this repository in different ways, I will update and add more ways to test it in the future.
 
-To add the "package", just use waves-dev-tools in your project directory and put it in your html file:
+To add the "package", just use "waves-dev-tools" in your project directory and put it in your html file:
 
     <!--waves dev tools-->
     <script src="/waves-dev-tools/waves-api.min.js" defer></script>
