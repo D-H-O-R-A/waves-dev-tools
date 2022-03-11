@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signer</title>
+
+    <!--waves dev tools-->
+    <script src="/waves-dev-tools/waves-api.min.js" defer></script>
+    <script src="/waves-dev-tools/provider-keeper.js" async></script>
+    <script src="/waves-dev-tools/waves-transactions.min.js" async></script>
+    <script src="/waves-dev-tools/client-logs.min.js" async></script>
+    <script src="/waves-dev-tools/provider-cloud.min.js" async></script>
+    <script src="/waves-dev-tools/provider-ledger.js" async></script>
+    <script src="/waves-dev-tools/provider-seed.js" async></script>
+    <script src="/waves-dev-tools/provider-web.min.js" async></script>
+    <script src="/waves-dev-tools/signer.min.js" async></script>
+    <script src="/waves-dev-tools/waves-lib-crypto.js"></script>
+
+    <!--sweet alert - Optional-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!--jquery - Optional-->
+    <script src="/src/jquery-3.6.0.js"></script>
+
+    <!--main script-->
+    <script src="/index.js" defer></script>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <h1>Waves Dev-Tools Example</h1>
+    <button onclick='connectSigner("ProviderCloud")' onselect='connectSigner("ProviderCloud")'>Connect Signer - Waves.Exchange ProviderCloud</button>
+    <button onclick='connectSigner("ProviderWeb")' onselect='connectSigner("ProviderWeb")'>Connect Signer - Waves.Exchange ProviderWeb</button>
+    <button onclick='connectSigner("ProviderLedger")' onselect='connectSigner("ProviderLedger")'>Connect Signer - ProviderLedger</button>
+    <button onclick='connectSigner("ProviderKeeper")' onselect='connectSigner("ProviderKeeper")'>Connect Signer - ProviderKeeper</button>
+    <button onclick='connectSigner("ProviderSeed")' onselect='connectSigner("ProviderSeed")'>Connect Signer - ProviderSeed</button>
+    <p>Testnet Mode <input type="checkbox" checked></p>
+</body>
+</html>
