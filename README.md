@@ -1,4 +1,4 @@
-# waves-dev-tools-browser
+# waves-pack-script
 Pack of multiple scripts for developers who want to develop completely and simply in the Waves ecosystem, in addition to enjoying, venturing out and getting to know the best that this great blocckchain technology can offer for use in pure javascript.
 
 This "package" is the junction of several other scripts present in different npm packages from Waves for nodejs, put together in order to facilitate web-oriented development so that it can be executed in the browser.
