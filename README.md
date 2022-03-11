@@ -26,10 +26,15 @@ To add the "package", just use waves-dev-tools in your project directory and put
 Different from what is described in the documentation for accessing the respective initial functions of each package for each script, in this use case, you will use it as follows:
 
 Waves Keeper: WavesKeeper
+
 Waves Signer: new signer.Signer()
+
 Provider Cloud: new providerCloud.ProviderCloud()
+
 Provider Web: new providerWeb.ProviderWeb()
+
 Provider Ledger: new providerLedger.ProviderLedger()
+
 Provider Seed: WavesCrypto.crypto()
 
 The rest I imagine you can use and follow according to the documentation.
